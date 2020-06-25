@@ -21,6 +21,10 @@ server.get("/", (req, res) => {
 server.get("/create-point", (req, res) => {
   res.render("create-point.html");
 });
+
+server.get("/search", (req, res) => {
+  res.render("search-results.html");
+});
 // ligar o servidor
 
 server.listen(3000);
